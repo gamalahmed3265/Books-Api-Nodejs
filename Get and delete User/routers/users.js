@@ -11,7 +11,7 @@ const router = express.Router();
 
 /*
 * @desc Update user
-* @route /api/users/:id
+* @route /api/users/
 * @metheod PUT
 * @access private
 */ 

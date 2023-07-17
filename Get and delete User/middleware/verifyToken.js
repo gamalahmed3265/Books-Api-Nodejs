@@ -37,3 +37,5 @@ export function verifyTokenAdmin(req,res,next){
         }
     })
 }
+
+
