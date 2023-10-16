@@ -1,30 +1,58 @@
-# book_store_api
-Book Store API - project with Express JS framework for educational purpose
+# NodeJs-API
 
-
-# Usage
-- Install Mongo DB on your local machine or use Mongo DB Cloud -> [Go To MongoDB Website](https://www.mongodb.com)
-- Create `images` folder in your project
-  
-
-## Environment Variables
-Create `.env` file in the root of your project and add the following
-
+### init nodejs
 ```
-MONGO_URI= your mongodb uri
-PORT= 8000
-NODE_ENV= development
-JWT_SECRET_KEY= your jwt secret key
-USER_EMAIL= your email service for sending email
-USER_PASS= your email service password
+    npm init
 ```
 
-## Install Dependencies
+### install express
 ```
-npm install
+    npm i express
+```
+### install Express Async Handler
+```
+    npm i express-async-handler
+```
+### install env file
+```
+    npm i dotenv
+```
+### install bcrypt.js
+```
+    npm i bcryptjs
+```
+### install jsonwebtoken
+```
+    npm i jsonwebtoken
+```
+### to run seedser.js file
+#### import
+```
+    node seeders -import
+```
+#### delete
+```
+    node seeders -delete
 ```
 
-## Run
+### install ejs
 ```
-npm start
+    npm i ejs
+```
+
+### install multer
+```
+    npm i multer
+```
+### install nodemailer
+```
+    npm i nodemailer
+```
+### install helmet
+```
+    npm i helmet
+```
+### install cors
+```
+    npm i cors
 ```
